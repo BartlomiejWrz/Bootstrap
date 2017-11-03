@@ -5,23 +5,19 @@
 
 }
 
-
-main{
+main {
     background-color: #666666;
 }
 
-.name{
+.name {
     position: inherit;
     transform: translate(0px, -400px);
-    opacity:0.7;
-    color:black;
+    opacity: 0.7;
+    color: black;
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
 }
-
-
-
 
 .info {
     float: left;
@@ -34,35 +30,36 @@ main{
 
 h1, h3 {
     background-color: darkred;
-    margin:  auto;
+    margin: auto;
 
 }
 
 /*MAIN*/
-.experiance{
+.experiance {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width:100%;
-    margin: 10px ;
+    width: 100%;
+    margin: 10px;
     padding: 5px;
 }
-h4{
+
+h4 {
     text-align: center;
     background-color: #333333;
     padding: 20px;
 }
+
 .content {
     height: auto;
     background-color: darkred;
     color: black;
     background-size: cover;
 
-
 }
 
-.tech{
+.tech {
     width: 100%;
     padding: 20px;
     box-shadow: 3px 3px 30px 5px #ffffff;
@@ -70,34 +67,44 @@ h4{
     margin: 15px 15px 15px 15px;
 }
 
-.exp{
+.exp {
     display: flex;
     align-items: inherit;
     justify-content: space-around;
     flex-direction: row;
 
-    margin: 10px  ;
+    margin: 10px;
 }
-.logo{
-    width:100px;
+
+.logo {
+    width: 100px;
     box-shadow: 3px 3px 30px 5px #ffffff;
 }
-.technology{
+
+.technology {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
 
-
 }
 
 /*ASIDE*/
 
-
+.button {
+    color: black;
+}
 
 aside {
     background-color: #666666;
     text-align: center;
+}
+
+.projects {
+    padding-left: 0px;
+    padding-right: 0px;
+
+
 }
 
 p {
@@ -116,6 +123,26 @@ ul, li {
 }
 
 a {
+    text-align: center;
+    background-color: #333333;
+    color: black;
+}
+
+.dropdown-menu {
+    text-align: center;
+
+}
+
+.btn-default {
+    background-color: #333333;
+
+}
+
+.btn-default:hover {
+    background-color: #333333;
+}
+
+ul li {
     background-color: #333333;
     color: black;
 }
@@ -129,17 +156,14 @@ a:hover {
     color: red;
 }
 
-
-
-
 /*SOCIALS*/
 
 .social {
     display: flex;
-    justify-content: space-around;background-color: #666666;
+    justify-content: space-around;
+    background-color: #666666;
     padding-bottom: 15px;
     padding-top: 15px;
-
 
 }
 
@@ -163,41 +187,38 @@ a:hover {
     background-color: #E62117;
 }
 
-
 footer {
     text-align: center;
     background-color: #666666;
-    margin:0px;
+    margin: 0px;
     padding: 5px;
 
 }
 
-footer p{
-    padding:0px;
+footer p {
+    padding: 0px;
 }
-
-
-
 
 /*MEDIA*/
 
-@media only screen and (max-width: 768px){
-    .photography{
-        position:static;
+@media only screen and (max-width: 768px) {
+    .photography {
+        position: static;
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
     }
 
-    .name{
+    .name {
 
         transform: translate(0px, -150px);
     }
 
-    .tech{
+    .tech {
 
         padding: 0px;
     }
+
     p {
         color: darkred;
         background-color: #666666;
@@ -207,78 +228,56 @@ footer p{
         font-size: 14px;
     }
 
-
 }
 
-@media only screen and (min-width: 768px){
-    .photography{
-        position:static;
+@media only screen and (min-width: 768px) {
+    .photography {
+        position: static;
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
     }
 
-    .name{
+    .name {
 
         transform: translate(0px, -250px);
     }
 
-
 }
 
-@media only screen and (min-width: 992px){
-    .photography{
-        position:static;
+@media only screen and (min-width: 992px) {
+    .photography {
+        position: static;
         padding-left: 10%;
         padding-right: 10%;
         text-align: center;
         width: 100%;
 
     }
-    .name{
+
+    .name {
 
         transform: translate(0px, -250px);
     }
 
-/*
-    .content{
-        float:left;
-        width:70%;
-    }
-    .projects{
-        float:right;
-        width:30%;
-    }
-}
-*/
-@media only screen and (min-width: 1200px){
+    @media only screen and (min-width: 1200px) {
 
-    .photography{
-        position:static;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        max-width: 100%;
-        align-items: center;
+        .photography {
+            position: static;
+            padding-left: 15%;
+            padding-right: 15%;
+            text-align: center;
+            max-width: 100%;
+            align-items: center;
 
-    }
+        }
 
-    .name{
+        .name {
 
-        transform: translate(0px, -450px);
-    }
+            transform: translate(0px, -450px);
+        }
 
-    /*
-    .content{
-        float:left;
-        width:70%;
-    }
-    .projects{
-        float:right;
-        width:30%;
-    }
-}
-*/
+
 
 
 
