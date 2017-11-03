@@ -55,7 +55,6 @@ h4{
 }
 .content {
     height: auto;
-    width: 100%;
     background-color: darkred;
     color: black;
     background-size: cover;
@@ -94,9 +93,9 @@ h4{
 
 /*ASIDE*/
 
+
+
 aside {
-    width: 100%;
-    height: auto;
     background-color: #666666;
     text-align: center;
 }
@@ -138,6 +137,8 @@ a:hover {
 .social {
     display: flex;
     justify-content: space-around;background-color: #666666;
+    padding-bottom: 15px;
+    padding-top: 15px;
 
 
 }

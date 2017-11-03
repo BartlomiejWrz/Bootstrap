@@ -1,7 +1,7 @@
 ﻿# Bartłomiej Wrzesiński
 ## my first website
 
-It's a project of my first personal website
+It's a project of my first personal website on bootstrap
 
-[link to working website] (https://bartlomiejwrz.github.io)
+[link to working website] ()
 
